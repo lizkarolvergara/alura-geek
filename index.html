@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+  
+  <!-- CSS de bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary no-margin">
+        <div class="container-fluid d-flex justify-content-center w-100 encabezado">
+            <a href="index.html" class="navbar-brand mb-0 h1 press-start-2p-regular text-white">❤️❤️❤️ Alura Geek ❤️❤️❤️</a>
+        </div>
+    </nav>
+    
+
+    <div class="container ">
+        <div class="row "> 
+            <div class="col-12 col-lg-8 columna"> 
+                <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" data-lista>
+                    <!-- aqui se agregan los productos -->
+                </ul>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 ibm-plex-mono-regular font-small columna"> 
+                <form data-formulario>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">nombre:</label>
+                        <input type="text" class="form-control borde" id="" aria-describedby="emailHelp" data-nombre>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">precio:</label>
+                        <input type="text" class="form-control borde" id="" data-precio>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">imagen:</label>
+                        <input type="text" class="form-control borde" id="" data-imagen>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary font-small fondo-principal borde"></input>
+
+                    <button id="limpiar" class="btn btn-primary font-small fondo-blanco borde">Limpiar</button>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <footer class="navbar bg-body-tertiary no-margin">
+        <div class="container-fluid d-flex flex-column justify-content-center align-items-center w-100 encabezado">
+            <h1 class="navbar-brand mb-2 h1 press-start-2p-regular text-white">❤️❤️❤️ Alura Geek ❤️❤️❤️</>
+            <h5 class="mb-2 text-white ibm-plex-mono-regular">DESARROLLADO POR LIZ KAROL VERGARA</h5>
+            <h6 class="mb-2 text-white ibm-plex-mono-regular">ALURA LATAM 2024</h6>
+        </div>
+    </footer>
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-5oCfvrR+hD5ZyUwBDt1DANRIRuFZHX7XYE3wr18Ejcgo60pB3EZi1i6ci8XJbWJn" crossorigin="anonymous"></script>
+  <script src="js/mostrarProductos.js" type="module"></script>
+  <script src="js/crearProducto.js" type="module"></script>
+  
+</body>
+</html>

@@ -1,0 +1,60 @@
+li {
+    all: unset;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ibm-plex-mono-regular {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+
+.text-white {
+    color: white;
+}
+.encabezado {
+    background-color: #5300C8; 
+}
+.encabezado, footer span {
+    padding: 2rem;
+}
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+.font-small {
+    font-size: 1rem;
+}
+.fondo-principal {
+    background-color: #5300C8;
+}
+.fondo-blanco {
+    color: #5300C8;
+    background-color: white;
+}
+.borde {
+    border-color: #5300C8;
+    border-width: 0.1rem;
+    border-radius: 20px;
+}
+.columna {
+    padding: 2rem;
+}
+
+.success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+.success h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
